@@ -1,7 +1,6 @@
-local function modep(name, value)
+mp.observe_property("playlist-count", "number", function(_, value)
     if(value > 1) then mode = "3buttons" else mode = "2buttons" end
-end
-mp.observe_property("playlist-count", "number", modep)
+end)
 mp.commandv('script-message-to', 'uosc', 'set', 'icon', "close")
 mp.register_script_message('set', function(prop, value)
     if value == "file" then
