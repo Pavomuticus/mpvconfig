@@ -40,7 +40,6 @@ function Controls:init()
 		['loop-file'] = 'cycle:repeat_one:loop-file:no/inf!?Loop file',
 		shuffle = 'toggle:shuffle:shuffle?Shuffle',
 		fullscreen = 'cycle:crop_free:fullscreen:no/yes=fullscreen_exit!?Fullscreen',
-		cymode = 'cycle:repeat:icon@cymode:close=repeat/file=repeat_one!/playlist=repeat!?循环模式',
 	}
 
 	-- Parse out disposition/config pairs
