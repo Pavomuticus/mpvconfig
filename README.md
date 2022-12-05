@@ -1,7 +1,7 @@
 # mpvconfig
 基于[uosc 4.4.0](https://github.com/tomasklaen/uosc/releases/tag/4.4.0)，实现一个单击切换的循环按钮
 
-仅修改`Controls.lua`,`uosc.conf`两个文件用于添加按钮，新增`cymode.lua`用于实现功能，代码很笨仅供参考。
+仅修改`uosc.conf`文件用于添加按钮，新增`cymode.lua`用于实现功能，代码很笨仅供参考。
 
 核心脚本`cymode.lua`修改于[uosc开发者示例](https://github.com/tomasklaen/uosc#set-prop-value)
 
